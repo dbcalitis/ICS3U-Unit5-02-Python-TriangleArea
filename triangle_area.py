@@ -8,7 +8,7 @@
 def calculate_area(base_length, height):
     # this function calculates the area of the triangle
     # process
-    area_of_triangle = (base_length * height) / 2
+    area_of_triangle = round((base_length * height) / 2, 2)
 
     # output
     print("\nThe area of the triangle is {0} cm²".format(area_of_triangle))
